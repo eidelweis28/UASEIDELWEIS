@@ -3,7 +3,7 @@
     <div class="mb-3 text-end">
         <a href="?page=makananAdd" class="btn btn-outline-brown btn-sm">[+] Tambah Data Baru</a>
     </div>
-    <table class="table table-hover border-brown">
+    <table id="DataTables" class="table table-hover border-brown">
         <thead class="bg-brown text-white">
             <tr>
                 <th class="text-center">No</th>

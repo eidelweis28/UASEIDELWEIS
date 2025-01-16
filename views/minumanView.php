@@ -5,7 +5,7 @@
             [+] Tambah Data Baru
         </a>
     </div>
-    <table class="table table-hover border-brown">
+    <table id="DataTables" class="table table-hover border-brown">
         <thead class="bg-brown text-white">
             <tr>
                 <th class="text-center">No</th>
@@ -43,7 +43,7 @@
                 <?php }
             } ?>
         </tbody>
-    </table>
+    </table>  
     <div class="text-end">
         <p class="fw-bold text-muted">Total: <?= mysqli_num_rows($sql); ?></p>
     </div>
